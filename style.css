@@ -1,0 +1,72 @@
+/* Save below into style.css */
+
+
+.skill {
+padding: 18px;
+background: #111;
+border: 1px solid #1f1f1f;
+border-radius: 16px;
+transition: transform .2s;
+}
+
+
+.skill:hover {
+transform: translateY(-6px);
+}
+
+
+.project-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+gap: 22px;
+margin-top: 30px;
+}
+
+
+.project-card {
+background: #0f0f0f;
+border: 1px solid #1c1c1c;
+border-radius: 18px;
+padding: 22px;
+transition: transform .25s;
+}
+
+
+.project-card:hover {
+transform: translateY(-8px);
+}
+
+
+.project-card p {
+color: #9a9a9a;
+}
+
+
+.tags {
+display: flex;
+flex-wrap: wrap;
+gap: 8px;
+margin: 12px 0;
+}
+
+
+.tag {
+font-size: 12px;
+padding: 6px 10px;
+background: #1a1a1a;
+border-radius: 999px;
+color: #cfcfcf;
+}
+
+
+.center {
+text-align: center;
+}
+
+
+@keyframes fadeUp {
+to {
+opacity: 1;
+transform: translateY(0);
+}
+}
